@@ -20,10 +20,6 @@ export default defineConfig({
         target: "http://localhost:3000/",
         changeOrigin: true,
       },
-      "/api/contacts/": {
-        target: "http://localhost:3000/",
-        changeOrigin: true,
-      },
     }
   }
 });
